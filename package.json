@@ -1,0 +1,44 @@
+{
+  "name": "angular1-es6",
+  "version": "1.0.0",
+  "description": "Angular1.x boilerplate with webpack and es6",
+  "main": "src/index.js",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "bootstrap-sass": "^3.3.6",
+    "compass-mixins": "^0.12.7",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "ng-annotate-loader": "^0.1.0",
+    "node-sass": "^3.4.2",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-core": "^0.6.8",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base src",
+    "build": "webpack && cp src/index.html dist/index.html"
+  },
+  "keywords": [
+    "angularjs",
+    "webpack",
+    "es6",
+    "babel"
+  ],
+  "author": "Dimas López <dimaslopezzurita@gmail.com> (http://dimaslz.io)",
+  "license": "MIT"
+}
